@@ -10,7 +10,6 @@ function App() {
             <div className="card-body">
               <form className="mb-3 d-flex justify-content-between align-items-center">
                 <div>
-                 
                   <input
                     type="text"
                     class="form-control"
@@ -22,16 +21,19 @@ function App() {
               </form>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                <input
-                  className="form-check-input me-2"
-                  type="checkbox"
-                  value=""
-                  id="flexCheckDefault"
-                />
-                <label className="form-check-label" for="flexCheckDefault">
-                  Default checkbox
-                </label>
+              <li className="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                  <input
+                    className="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label className="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <button className="btn btn-danger">Remove</button>
               </li>
               <li className="list-group-item">A second item</li>
               <li className="list-group-item">A third item</li>
