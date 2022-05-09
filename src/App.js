@@ -12,7 +12,7 @@ function App() {
                 <div>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="exampleFormControlInput1"
                     placeholder="yoz.. "
                   />
@@ -29,7 +29,10 @@ function App() {
                     value=""
                     id="flexCheckDefault"
                   />
-                  <label className="form-check-label" for="flexCheckDefault">
+                  <label
+                    className="form-check-label"
+                    htmlFor="flexCheckDefault"
+                  >
                     Default checkbox
                   </label>
                 </div>
