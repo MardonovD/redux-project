@@ -9,7 +9,10 @@ function App() {
       <div className="row">
         <div className="col-md-6 offset-md-3">
           <div className="card mt-5">
-            <div className="card-body"></div>
+            <TodosHeader />
+            <TodosForm />
+            <TodosItems />
+            <TodosFooter />
           </div>
         </div>
       </div>
