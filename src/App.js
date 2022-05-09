@@ -1,3 +1,8 @@
+import TodosItem from "./components/Todos-item";
+import TodosItems from "./components/Todos-items";
+import TodosHeader from "./components/Todos-header";
+import TodosForm from "./components/Todos-form";
+import TodosFooter from "./components/Todos-footer";
 function App() {
   return (
     <div className="container">
@@ -5,10 +10,6 @@ function App() {
         <div className="col-md-6 offset-md-3">
           <div className="card mt-5">
             <div className="card-body"></div>
-            
-            <div className="card-footer">
-              <button className="btn btn-primary">Save</button>
-            </div>
           </div>
         </div>
       </div>

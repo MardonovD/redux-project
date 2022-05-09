@@ -1,8 +1,8 @@
-const TodosHeader = () => {
+const TodosFooter = () => {
   return (
-    <div className="card-header">
-      <h1>Todos:0</h1>
+    <div className="card-footer">
+      <button className="btn btn-primary">Save</button>
     </div>
   );
 };
-export default TodosHeader;
+export default TodosFooter;
